@@ -12,12 +12,10 @@ nchnls = 1 ; # of channels
 
 ; instrument #1 - a basic oscillator.
 instr 1
-  kamp = 10000 ; how loud
-  kcps = 200 ; how high
   
   ifn = 1 ; waveform
 
-  a1 oscil kamp, kcps, ifn
+  a1 oscil p5, p4, ifn
   out a1
 endin
 </CsInstruments>
@@ -29,11 +27,15 @@ endin
 ; GEN10 (the genvalue) fills a table with harmonic values
 ; where all the arguments are the harmonic strengths
 f 1 0 16384 10 1
+f 1 5 16384 10 1 0.5 0.3 0.2
 
 ; play instr #1 for 2 seconds.
 ; i statement
 ; instrumentnumber, actiontime, duration, args (p4...)
-i 1 0 2
+i 1 5 2 1000 1000
+i 1 0 1 100 10000
+i 1 0 1 300 2000
+i 1 0 1 650 3000
 
 e
 </CsScore>
