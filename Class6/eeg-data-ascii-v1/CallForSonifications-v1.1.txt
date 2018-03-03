@@ -1,0 +1,139 @@
+
+****** CALL FOR SONIFICATIONS  ********* v1.1 18/12/03
+
+Listening to the Mind Listening
+Concert of Sonifications at the Sydney Opera House
+
+The Listening to the Mind Listening Concert will be held at the Sydney Opera House as part of the International Conference on Auditory Display ICAD2004 in Sydney from 6-9 July 2004 www.icad.org/icad2004. 
+
+The music in the concert will be sonifications composed from the neural activity of a person listening to a piece of music. Sonification is the mapping of data into sounds for some purpose. A data set containing a recording of neural activity is available for download from the ICAD website as described in the Data section of this call. This is an invitation for you to submit a sonification of this data for the concert. Submissions are open to everyone. Ten of the submitted sonifications will be selected for the concert, an audio CD and accompanying booklet. The concert will be presented by the Sydney Opera House Studio and promoted to the general public www.sydneyoperahouse.com/thestudio.
+
+------------------------------------------------------
+Motivation
+In his acceptance speech for the 1981 Nobel Prize for Medicine, David Hubel describes how the sound of a neuron firing led to his first important discovery.
+"Our first real discovery came as a surprise.  We had been doing experiments for about a month ... and were not getting very far. One day we made an especially stable recording. For 3 or 4 hours we got absolutely nowhere. Then we began to elicit some vague and inconsistent responses by stimulating somewhere in the mid-periphery of the retina. We were inserting the glass slide with its black spot into the slot of the ophthalmoscope when suddenly over the audiomonitor the cell went off like a machine gun. After some fussing and fiddling we found out what was happening. The response had nothing to do with the black dot. As the glass slide was inserted its edge was casting onto the retina a faint but sharp shadow, a straight dark line on a light background. That was what the cell wanted, and it wanted it, moreover, in just one narrow range of orientations."
+www.nobel.se/medicine/laureates/1981/
+
+Listening to the Mind Listening is a development of the technique of listening to neurons, but we will extend it to explore the neural activity of the entire brain. The goals of the concert are to
+* explore the idea that people can understand information from sonifications
+* stimulate a new aesthetic of form and function in sound
+* blur and cross the boundaries between sonification and music
+* compare and contrast sonification designs and techniques
+* investigate the listening activity of the mind using sounds instead of graphs
+
+------------------------------------------------------
+Constraints
+The concert is an investigation on the boundary of art and science. The sonifications need to be musically satisfying for a general audience, scientifically interesting to neuroscientists, and help develop design knowledge in the auditory display community. In order to open up artistic possibilities, whilst at the same time providing for comparison and analysis, we are imposing some simple constraints for the sonifications.
+* Data-driven. Sonification is a mapping of data into sounds for some purpose. The sonification should be the result of an explicit mapping from the data into sounds. The listener should be able to understand relations and structures in the data from the sonification. 
+* Time is the binding. The timeline of the data must map directly to the timeline of the sonification. All other mapping decisions are completely open but we need to be able to compare pieces across time, and also compare them with the original data set and source piece of music. This means that the final sonification pieces will all be exactly the same duration as the data set, and original piece of music.
+* Reproducibility. The mapping of the data into sound must be described in a manner than can be reproduced by others. Mappings should be described explicitly. Different mappings will enable different perceptions of information in the data. The experiment should lay a foundation for scientific and aesthetic observations and ongoing development by the research community.
+
+------------------------------------------------------
+Background
+The human brain is made up of 100 billion neurons, each with thousands of connections with other neurons! However the brain is not homogenous - it is made up of many special purpose regions. Many of these regions are activated by sounds - starting from the cochlea, up the vestibulocochlear nerve, to the superior olive that processes directional cues, on to the pons for recognition and the thalamus that directs attention, as well as the primary and secondary auditory cortex that connect sounds with memories, emotions and thinking. Most techniques for observing neural activity are visual, but there is potential that sounds may provide alternative insights especially for temporal patterns such as the well-known alpha, beta, and gamma frequency bands. Below are some starting points for exploring sonification, neural activity, and human auditory processing.
+* National Science Foundation - White Paper on Sonification
+www.icad.org/websiteV2.0/References/nsf.html
+* University of Bielefeld Neuroinformatics - Sonifications for EEG Data Analysis
+www.icad.org/websiteV2.0/Conferences/ICAD2002/proceedings/22_Thomas_Hermann_EEG.pdf
+www.techfak.uni-bielefeld.de/ags/ni/projects/datamining/datason/demo/ICAD2002/EEGSon.html
+* University of Glasgow Centre For Music Technology - Music From Brainwaves www.music.gla.ac.uk/HTMLFolder/Research/BrainMus/musicfrombrainwaves.htm
+* MIT OpenCourseWare - Introduction to Computational Neuroscience
+http://ocw.mit.edu/OcwWeb/Brain-and-Cognitive-Sciences/9-29JIntroduction-to-Computational-NeuroscienceSpring2002/LectureNotes/index.htm
+* MIT OpenCourseWare - Neural Coding of Sound
+http://ocw.mit.edu/OcwWeb/Health-Sciences-and-Technology/HST-723Neural-Coding-and-Perception-of-SoundSpring2003/LectureNotes/index.htm
+* Boston University EarLab - Images of the Human Auditory Pathways
+http://earlab.bu.edu/anatomy/Images.aspx
+
+------------------------------------------------------
+Music
+The listener in our experiment was listening to a piece of music by award winning indigenous Australian composer David Page. The piece is 5 minutes long and has a wide dynamic range with natural and synthesised sounds and instruments that is characteristic of David's blend of traditional and contemporary styles. The actual piece of music is being kept under wraps so that it does not influence the composers in their mappings from the neural data structure into sound. The mystery will be revealed at the finale of the concert, when after the ten sonifications have been played we will hear the original piece of music.
+
+David joined Bangarra Dance Theatre as resident composer and performer in 1991, collaborating on the music for Ninni, Praying Mantis Dreaming and the Atlanta Olympic Games flag handover ceremony in 1996, amongst other projects. He is particularly proud of his music for Ochres which was released as a CD through Larrikin records and won the 1995 Deadly Award for Best Soundtrack (National Indigenous Music, Sport, Entertainment and Community Awards). He went on to win that award for the next two years with Alchemy for the Australian Ballet in 1996, and Fish for Bangarra in 1997. In 2002 David received yet another Deadly, this time for Excellence in Theatrical Score. www.bangarra.com.au/bios/dpagesfrancis.html.
+
+------------------------------------------------------
+Data
+The listener wore headphones to hear the music, and a cap with EEG sensors on it to record neural activity. The 26 sensor electrodes were arranged according to the 10-20 standard for EEG placement. http://faculty.washington.edu/chudler/1020.html. The sensors are labelled by proximity over a regions of the brain (F=Front, T=Temporal, C=Central, P-Parietal, O=Occipital) followed by either a 'z' for the midline, or a number that increases as it moves further from the midline. Odd numbers (1,3,5) are on the left hemisphere and even numbers (2,4,6) on the right e.g. T4 is on the right temporal lobe, above the right ear. An additional 10 sensors were used to record heart-rate, skin conductance, eye movements, breathing and other data. The sensors were recorded as interleaved channels of signed 32 bit integers at a rate of 500 samples per second. The channels were separated into individually named files and converted to ascii format for simplicity of loading on different systems.
+
+The data was recorded at the Brain Resource Company www.brainresource.com by Evian Gordon, Daniel Hermens, and Patrick Hopkinson, in collaboration with Stephen Barrass, on 21 November 2003.
+
+
+Download the zipped data in ascii signed 32 bit integer format < ~10 MB > from
+www.icad.org/websiteV2.0/Conferences/ICAD2004/concert/eeg-data-ascii-v1.0.zip 
+www.cmis.csiro.au/stephen.barrass/listening/eeg-data-ascii-v1.0.zip
+
+Download zipped data plots in jpg format < ~2 MB > from
+www.icad.org/websiteV2.0/Conferences/ICAD2004/concert/eeg-data-plots-v1.0.zip 
+www.cmis.csiro.au/stephen.barrass/listening/eeg-data-plots-v1.0.zip
+
+ch01-Fp1	Forehead Left
+ch02-Fp2	Forehead Right
+ch03-F7	Front Far Left
+ch04-F3	Front Left
+ch05-Fz	Front Midline
+ch06-F4	Front Right
+ch07-F8	Front Far Right
+ch08-FC3	Front Centre Left
+ch09-FCz	Front Centre Midline
+ch10-FC4	Front Centre Right
+ch11-T3	Temporal Left (above ear)
+ch12-C3	Central Left
+ch13-Cz	Central Midline
+ch14-C4	Central Right
+ch15-T4	Temporal Right (above ear)
+ch16-CP3	Central Parietal Left
+ch17-CPz	Central Parietal Midline
+ch18-CP4	Central Parietal Right
+ch19-T5	Temporal Left Back (behind ear)
+ch20-P3	Parietal Left
+ch21-Pz	Parietal Central
+ch22-P4	Parietal Right
+ch23-T6	Temporal Right Back (behind ear)
+ch24-O1	Occipital Left
+ch25-Oz	Occipital Midline
+ch26-O2	Occipital Right
+ch27-VPVA	Vertical Above - 1cm above the left eye
+ch28-VNVB	Vertical Below - 1cm below the left eye
+ch29-HPHL	Horizontal Left - 1cm outside of left eye
+ch30-HNHR	Horizontal Right - 1cm outside of right eye
+ch31-Erbs	Erbs point references (mimics) heart rate
+ch32-OrbOcc	Orbicularis Occuli (1cm outside of VB) - measures startle
+ch33-Mass	Masseter (jaw muscle) measures jaw clenching
+ch34-EDA	Electrodermal activity - Sweat Response
+ch35-Resp	Breathing
+ch36-ECG	Heart Rate
+
+------------------------------------------------------
+The Opera House Studio and Sound System
+The Sydney Opera House Studio is an intimate, flexible space designed primarily for new music and contemporary performance. The seating capacity ranges from 220 to 318, depending on the configuration. The floor area is approximately 15m x 15m, within which flexible tiered seating banks and cabaret-style seating may be arranged. There are two rows of fixed seating on each of the four sides of the gallery. There is a powered overhead grid for hanging speakers with cabling points that connect to a 32 channel mixing console. Layout plans and technical specifications of the Studio are available from www.sydneyoperahouse.com/h/at_venues_fs2.html. An array of 16 speakers will be set up in the Studio to achieve full auditory coverage of the upper hemisphere in the space. The arrangement will be roughly dome shaped with speakers spaced at equal intervals. The exact coordinates of the speakers are not certain at this stage but can be approximated to lie on a dome with radius 7.5 metres.  The audience at the concert will be able to walk around the ground floor inside the speaker array to hear the sonifications from different positions, or to sit upstairs in the gallery to listen from a particular vantage point.
+
+The sounds will be placed in the listening space using a Lake Huron sound system provided by Lake Technology Limited www.lake.com. The Huron can place up to 16 channels of audio at virtual locations inside an array of 16 speakers. A virtual location can be specified in hemi-spherical coordinates (Radius, Angle, Elevation)
+Radius from centre in the normalised range 0.0 to 1.0.
+Angle in degrees anticlockwise from front with range 0 to 360.
+Elevation in degrees from the floor with range 0 to 90.
+For example - Soundfile4.wav = (1.0, 45, 54).
+
+The locations can also be specified in terms of the 10-20 EEG system described in the Data section. For example - Soundfile4.wav = (F3) would place the soundfile at the Front Left location of the F3 sensor on the scalp. This is equivalent to Soundfile4.wav = (1.0, 45, 54).
+
+The locations can also be specified according to the speaker layouts in standard setups for Mono, Stereo, Quad, Octal, Surround 4.1, and Surround 6.1.
+
+------------------------------------------------------
+Submissions
+Submissions need to be received by 6 April 2004 to allow for review and selection. Submissions are open to everyone, and will be reviewed by an international panel. The panel will select ten pieces for the concert, audio CD and booklet. 
+
+Submissions should consist of a description document and accompanying soundfiles. The description document should have a name made up from the surnames of the contributors, e.g. SmithBrownJones.pdf. The document should be in PDF format laid out according to the template at www.icad.org/icad2004/submission/. The document can be up to 4 pages long and must include the title of the piece, names and affiliations of contributors, a description of the mapping used to sonify the data, and a list of accompanying soundfiles with spatial locations for each. 
+
+The soundfiles can be either 16 bit PCM mono .wav format at 44.1 kHz, or ambisonic B-format. The soundfiles should have the same name as the description document with an additional unique ID in the range 01-16 for each e.g. SmithBrownJones01.wav, SmithBrownJones02.wav, ... SmithBrownJones16.wav. The Lake Huron system will be used to mix the Soundfiles to a binaural form so that the selection panel can review the pieces through headphones.
+
+Further enquiries can be emailed to conference@icad.org with the subject line 
+Listening to the Mind Listening.
+For discussions please email the ICAD list at icad@santafe.edu.
+
+Electronic submissions can be uploaded by ftp to www.ict.csiro.au/aai/concert.
+CD-ROM submissions can be sent by post to
+
+Stephen Barrass
+Listening to the Mind Listening
+CSIRO ICT Centre, GPO Box 664
+Canberra ACT, Australia 2601
+
+
