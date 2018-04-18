@@ -1,0 +1,13 @@
+array = {7.05, 7.07, 7.09, 7.1, 8., 8.03, 8.05, 8.07, 8.08, 8.09, 8.1, 9., 9.05, 9.07, 10.00}
+arrsize = len(array)
+
+st = 0
+for (i = 0; i < 70; i = i+1) {
+	pos = random()
+	hard = random()
+	inst = irand(0, 8.999)
+	index = trunc(irand(0, arrsize))
+	pch = array[index]
+	MMODALBAR(st, 1., 20000, cpspch(pch), hard, pos, inst)
+	st = st + 0.11
+}
