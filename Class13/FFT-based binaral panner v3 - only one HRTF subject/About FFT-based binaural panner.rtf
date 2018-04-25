@@ -1,0 +1,47 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1138\cocoasubrtf470
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\f0\fs24 \cf0 The 
+\i FFT-based binaural panner 
+\i0 is not an external, but rather a project that consists of a couple of 
+\i Max
+\i0  patches and 43 pairs of HRTF subject files to be read by jit.matrix~. \
+\
+It was created in 2011 as part of a thesis on the possibilities of binaural synthesis in combination with head-tracking, in an aesthetic/experience-oriented context. In the thesis project, the 
+\i FFT-based binaural panner
+\i0  is a small, but essential, part of a larger construction i 
+\i Max
+\i0 , involving sensor-based head-tracking, room simulation, configurable sound- and listener positions etc.. \
+\
+The project is inspired by other 
+\i Max
+\i0  projects such as 
+\i Head in Space
+\i0  (http://sites.google.com/site/dariopizzamiglio/projects/head-in-space) and 
+\i Binaural Tools
+\i0  (http://www.ece.ucdavis.edu/binaural/binaural_tools.html). The 
+\i FFT-based binaural panner 
+\i0 was created to reduce the substantial load on the cpu that comes with convolution in the time-domain.\
+\
+The panner uses the impulse responses from the 
+\i CIPIC HRTF database 
+\i0 (http://interface.cipic.ucdavis.edu/sound/hrtf.html) but in a frequency-domain and interpolated version.\
+\
+Version 3 (this version) of the project includes the sub patch 
+\i virtualSoundPositioning
+\i0  that shows an example of how the panner can be used to create virtual sound positioning systems.\
+\
+The project also includes the 
+\i HRTFSubjectMatcher 
+\i0 sub patch, which relies on the 'HRTFSubjectMatcher.class' java external found in the 'java' folder. The 
+\i HRTFSubjectMatcher 
+\i0 tries to match the entered listener measurements with the subjects in the CIPIC database. However it must be mentioned that it is by no means scientifically valid, but might serve at a rudimentary tool for selecting an appropriate HRTF file set!\
+\
+Best regards \
+Jakob Hougaard Andersen\
+Student at Audio Design, Aarhus University\
+\
+}
